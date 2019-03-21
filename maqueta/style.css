@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Arimo|Lato');
+body {
+  background-color: black;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  color: white;
+}
+.bg-black {
+  background-color: black;
+}
+
+.cabecera-pizza {
+  background-image: url('assets/img/sitio/pizza.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 1000px;
+}
+
+.caja_relativa {
+  position: relative;
+}
+
+.centrado_absoluto {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+
+.menu-carta{
+  background-color: #ca241f;
+    width: 70%;
+    font-size: 2.8em;
+    padding: 5px 0 5px 20px;
+    box-sizing: content-box;
+
+}
+.menu-carta--bg{
+  width: 100%;
+  height: 200px;
+  background: url('assets/img/sitio/cena.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px 0;
+}
+
+h1 {
+  color: white;
+  font-family: Lato, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+}
+
+.titulo_seccion_plato {
+
+  height: 100px;
+
+}
+.antipastos {
+  background-image: url('assets/img/sitio/oliva.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+
+}
+
+.antipastos--titulo {
+  position: absolute;
+    top: 40%;
+    left: -20%;
+    background-color: #ca241f;
+}
+
+.cover{ object-fit: cover; }
+
+.img-plato {
+  
+  border-radius: 10px;
+  margin: 10px 0;
+  max-width: 100%;
+  object-fit: cover;
+  min-height: 200px;
+  object-position: center;
+}
+
+.seccion-platos {
+
+
+  
+}
+
+footer {
+
+  background-color: #707070;
+  min-height:200px;
+  margin: 40px 0 0 0;
+}
