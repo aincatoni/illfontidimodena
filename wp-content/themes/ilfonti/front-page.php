@@ -311,6 +311,7 @@
           <div class="col-12 reserva-online--bg" id="reserva">
             <h1 class="reserva-online centrado_absoluto">RESERVA ONLINE</h1>
           </div>
+		<?php echo do_shortcode("[booking type=1 nummonths=2 width=100% form_type='standard']"); ?>
         </div>
       </div>
     </section>
@@ -323,15 +324,17 @@
           <div class="col-12" id="encuentranos">
             <h1 class="reserva-online">ENCUENTRANOS</h1>
           </div>
+
+		<div class="col-12">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sitio/Ilfontidimodena_mapa.png" class="img-fluid">
+    </div>
+
         </div>
       </div>
     </section>
     
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.970509311494!2d-70.61137798500123!3d-33.42401320354171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6f35e9474d%3A0xff92949868614ecc!2sLa+Piccola+Italia!5e0!3m2!1ses!2scl!4v1553119699513" width="900" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
 
-    
+
 
 
 

@@ -43,6 +43,7 @@ function register_enqueue_style() {
 
         /* Deregister Scripts */
         wp_deregister_script('jquery');
+
    
     
 

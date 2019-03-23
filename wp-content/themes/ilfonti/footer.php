@@ -17,9 +17,9 @@
             
                 <div class="col-sm-2 col-md-2 col-lg-2 offset-sm-1 offset-md-1 offset-lg-1">
                     <ul>
-                        <li>ACERCA</li>
-                        <li>NOSOTROS</li>
-                        <li>PRODCUTOS</i></li>
+                        <li><a href="#menu-carta">MENÚ</a></li>
+                        <li><a href="#reserva">RESERVA</a></li>
+                        <li><a href="#encuentranos">ENCUENTRANOS</a></i></li>
                     </ul>
                 </div>
                     
